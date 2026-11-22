@@ -20,3 +20,8 @@ endpoints:
       titleConvo: true
       titleModel: "mixtral-8x7b-32768"
       modelDisplayLabel: "groq"
+
+webSearch:
+  searchProvider: "keenable"
+  scraperProvider: "keenable"
+  rerankerType: "none"
